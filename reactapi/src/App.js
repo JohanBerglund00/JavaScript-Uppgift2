@@ -39,7 +39,7 @@ class App extends Component {
         <ul>
           {items.map(item => (
             <li key={item.id}>
-              Name: {item.name} | Email: {item.email}
+              {item.firstName} {item.lastName} | E-mail: {item.email}
             </li>
           ))};
         </ul>
